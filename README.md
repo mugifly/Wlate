@@ -1,2 +1,2 @@
-wlate - Web LATEx editor
+wlate - Wlate (Web LATex Editor)
 ====
