@@ -31,7 +31,9 @@
        </a>
        <a class="brand" href="../"><%= image '/img/logo.png', id => 'siteLogo' %></a>
        <div class="nav-collapse" id="main-menu">
-
+		<ul class="nav pull-right">
+			<li><a href="#">masanori</a></li>
+		</ul>
        </div>
      </div>
    </div>

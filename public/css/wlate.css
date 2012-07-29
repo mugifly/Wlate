@@ -5,8 +5,18 @@
 	width:				150px;
 }
 
+#editor{
+	height:			400px;
+	padding-left:	40px;
+	padding-right:	20px;
+}
+
 #codeEditor{
-	margin-left:	10%;
-	margin-right:	10%;
-	width: 			80%;
+	position:relative;
+	display:		inline-block;
+	height: 		90%;
+	margin-top:		10px;
+	margin-left:	20px;
+	margin-right:	40px;
+	width: 			95%;
 }

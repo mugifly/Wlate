@@ -2,9 +2,16 @@
 % title 'wlate - anywhere latex';
 
 <div id="editor" class="span9">
+<i class="icon-pencil"></i> エディタ:<br>
 <textarea id="codeEditor" ng-model="editor" ng-change="previewDraw()"></textarea>
 </div>
 
 <div id="preview" class="span3">
+<i class="icon-file"></i> プレビュー:<br>
 {{code}}
+<img src="img/viewer-sample.png">
+</div>
+<br>
+<div id="preview" class="span3">
+<i class="icon-folder-open"></i> 添付ファイル:<br>
 </div>
