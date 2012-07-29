@@ -1,0 +1,5 @@
+function EditorCtrl ($scope){
+	$scope.previewDraw = function(){
+		$scope.code = $scope.editor;
+	};
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+	<meta charset="utf-8">
+	<title><%= title %></title>
+	<%= javascript '/js/angular-1.0.1.js' %>
+	<script type="text/javascript" src="<%= url_for ("current") => begin %><% end %>.js"></script>
+	<%= stylesheet '/css/bootstrap.css' %>
+	<%= stylesheet '/css/wlate.css' %>
+	<style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        padding-left:	40px;
+        padding-right:	30px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+	</style>
+  </head>
+  <body ng-controller="EditorCtrl">
+  
+  <div class="navbar navbar-fixed-top">
+   <div class="navbar-inner">
+     <div class="container">
+       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </a>
+       <a class="brand" href="../"><%= image '/img/logo.png', id => 'siteLogo' %></a>
+       <div class="nav-collapse" id="main-menu">
+
+       </div>
+     </div>
+   </div>
+ </div>
+ <br>
+    <div class="container-fluid">
+    	<div id="sidebar">
+    	
+    	</div>
+    	<div id="content">
+    	    <%= content %><br>
+		</div>
+	</div>
+ 	<hr>
+ 	<footer class="footer">
+ 		<div class="pull-right" style="text-align: right;margin-right:20px;font-size: 13px;">
+ 		&copy; 2012 - Masanori.<br>
+ 		Powered by Perl + Mojolicious + AngularJS + KyotoTyphoon + LaTex.</div>
+ 	</footer>
+ 	
+  </body>
+</html>

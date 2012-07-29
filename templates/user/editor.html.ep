@@ -1,0 +1,10 @@
+% layout 'default';
+% title 'wlate - anywhere latex';
+
+<div id="editor" class="span9">
+<textarea id="codeEditor" ng-model="editor" ng-change="previewDraw()"></textarea>
+</div>
+
+<div id="preview" class="span3">
+{{code}}
+</div>
