@@ -9,7 +9,7 @@ sub tex2png {
 	my $latex = Wlate::Model::Latex->new();
 	
 	
-	$self->render_static('temp/work-20120729.png');
+	#$self->render_static('temp/work-20120729.png');
 	
 }
 
